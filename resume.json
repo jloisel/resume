@@ -1,0 +1,257 @@
+{
+  "basics": {
+    "name": "Jérôme Loisel",
+    "label": "Devops Software Engineer",
+    "picture": "",
+    "email": "loisel.jerome@gmail.com",
+    "phone": "+33 (0) 6.26.91.17.43",
+    "website": "https://jeromeloisel.com",
+    "summary": "Hi, i'm an experienced Devops Software with a strong background in concurrent large scale applications written in Java. I'm also a maker. I've developed Freeglobes.net in 2006, an open-source PHP/MySQL CMS. I founded OctoPerf.com mid-2014 with a friend, Gerald Pereira. I'm passionate and curious about new technologies, especially open-source. I like to read books on technical subjects like Concurrency, Algorithms and Design patterns.",
+    "location": {
+      "address": "Le cours, Oriloge B3",
+      "postalCode": "83170",
+      "city": "Rougiers",
+      "countryCode": "FR",
+      "region": "PACA"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "jeromeloisel",
+        "url": "https://twitter.com/jeromeloisel"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "jeromeloisel",
+        "url": "https://www.linkedin.com/in/jérome-loisel-47363887"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Octoperf",
+      "position": "CEO/President",
+      "website": "https://octoperf.com",
+      "startDate": "2014-09-01",
+      "endDate": "",
+      "summary": "OctoPerf.com is an innovative Saas Load Testing Tool based on JMeter. Octoperf is based on a microservice architecture containerized with Docker. It scales to hundred of machines on-demand.",
+      "highlights": [
+        "Market study and product management: study existing competitors and design an innovative solution which solves customer issues",
+        "Architecture: Design from the ground a scalable REST Api backed by microservices",
+        "Big Data: Deploy an Elastic Mesos Cluster per AWS region which scales Mesos-slave on-demand",
+        "Docker: Containerized backend architecture",
+        "Continuous Integration: One-click build & deploy REST Api server from Jenkins CI",
+        " Log Management: centralized log management using Loggly",
+        "Marketing: integration with third-party services like MailChimp, Sellsy",
+        "Payment: automated subscriptions using Stripe"
+      ]
+    },
+    {
+      "company": "TapValue",
+      "position": "Devops Software Architect",
+      "website": "http://www.tapvalue.com",
+      "startDate": "2014-03.01",
+      "endDate": "2014-08-01",
+      "summary": "TapValue is a major actor in Real-Time Bidding advertising and retargeting. I helped to improve the existing code base and setup processes to speed up future developments.",
+      "highlights": [
+        "Amazon AWS: operating comany's services on Amazon: EC2, Route53, CloudFront, S3, Elastic Beanstalk",
+        "Centralized Process Management Web UI based on Supervisord",
+        "Designing and operating high performance web application (500K req/min)",
+        "Real-time processing: replace Hadoop by Apache Spark running on an Apache Mesos Cluster",
+        "Clustering: operate company's web services on Mesos with Apache Marathon",
+        "Amazon AWS, Apache Mesos, Apache Spark, Apache Marathon, Spring, Maven, Java, Jenkins, Beanstalk"
+      ]
+    },
+    {
+      "company": "Neotys",
+      "position": "Lead Developer",
+      "website": "http://neotys.com",
+      "startDate": "2007-09-01",
+      "endDate": "2014-03-01",
+      "summary": "Neotys helps companies create faster applications and deliver new features in less time using automated and collaborative load testing and performance monitoring across the application lifecycle. I was in charge of: - Design Functional and technical specifications. I have been one of the first developers joining the company. I really enjoyed solving hard problems involving concurrency and complex algorithms.",
+      "highlights": [
+        " Distributed Rendezvous: synchronize the launch of thousands of virtual users accross an entire cluster to hit your application. Lock-free synchronization (Atomic) helped to achieve up to 2 millions virtual users launched at the same time by driving 300 machines.",
+        "Results Database optimization: achieve 40x greater read performances by using a Bucketing algorithm which reduces the amount of data to read, and multithreading to distribute the workload on multiple CPU cores.",
+        "Bandwidth limitation rewritten using Leaky Bucket algorithm and Guava's RateLimiter to simulate bandwidth limitation more accurately.",
+        "Add load-testing support for various binary Http protocols like Oracle Forms or Adobe Flex by reverse-engineering them. Create an API which allows to add more protocols later",
+        "Public API in Java available to customers to add their own binary protocol support",
+        "Automation: algorithm to automate extracting and injecting dynamic parameters (like session tokens) in load testing scenarios",
+        "Java 7, low level Socket, Multithreading, concurrency, Binary protocols (WebSocket, Oracle Forms, Adobe Flex /AMF), Swing, Maven."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Github",
+      "position": "Open-source Commiter",
+      "website": "https://github.com/jloisel",
+      "startDate": "2013-01-01",
+      "endDate": "",
+      "summary": "I contributed to projects like Huspot Singularity or RxJava.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Polytech Marseille",
+      "area": "Software Development, Networking",
+      "studyType": "Computer Science Degre",
+      "startDate": "2014-09-01",
+      "endDate": "2007-09-01",
+      "gpa": "4.0",
+      "courses": [
+        "Software Algorithms",
+        "C, C++ and Java Programming",
+        "Computer networks"
+      ]
+    },
+    {
+      "institution": "Military Preparatory Classes",
+      "area": "Physics and Chemistry",
+      "studyType": "",
+      "startDate": "2002-09-01",
+      "endDate": "2004-07-01",
+      "gpa": "",
+      "courses": [
+        "Physical science",
+        "Chemistry",
+        "Mathematics"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "How to release Open-source software to Maven Central",
+      "publisher": "Jerome Loisel",
+      "releaseDate": "2016-01-07",
+      "website": "https://jeromeloisel.com",
+      "summary": "How I build and release open-source Java libraries to Maven Central."
+    },
+    {
+      "name": "One Year with Java 8 in production",
+      "publisher": "Jerome Loisel",
+      "releaseDate": "2016-08-24",
+      "website": "https://octoperf.com/blog/2015/08/24/one-year-with-java-8-in-production/",
+      "summary": "Why we use Java 8 for over a year and why we would never go back to Java 7."
+    },
+    {
+      "name": "Personal Blog",
+      "publisher": "Jerome Loisel",
+      "releaseDate": "2015-08-01",
+      "website": "https://jeromeloisel.com",
+      "summary": "Thoughts on software development and other tech subjects."
+    },
+    {
+      "name": "Why I like remote work (home-office)",
+      "publisher": "Jerome Loisel",
+      "releaseDate": "2015-06-30",
+      "website": "https://octoperf.com/blog/2015/06/30/why-we-embrace-remote-work/",
+      "summary": "Why I think remote work is the new coming trend in digital companies."
+    },
+    {
+      "name": "Real-time data mining with Elasticsearch",
+      "publisher": "Jerome Loisel",
+      "releaseDate": "2015-06-12",
+      "website": "https://octoperf.com/blog/2015/06/12/real-time-analytics-with-elasticsearch/",
+      "summary": "How we use Elasticsearch at Octoperf to serve real-time performance test analysis."
+    },
+    {
+      "name": "Building Better Software",
+      "publisher": "Jerome Loisel",
+      "releaseDate": "2015-06-04",
+      "website": "https://octoperf.com/blog/2015/06/04/building-better-software/",
+      "summary": "Why startups don't have to write dirty code to get things done quickly."
+    },
+    {
+      "name": "Performance comes with a trade-off",
+      "publisher": "Jerome Loisel",
+      "releaseDate": "2015-06-04",
+      "website": "https://octoperf.com/blog/2015/06/03/performance-comes-with-a-tradeoff/",
+      "summary": "Why performance hurts software maintainability."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "level": "Master",
+      "keywords": [
+        "Java",
+        "JDK 8",
+        "Maven"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Intermediate",
+      "keywords": [
+        "HTML",
+        "CSS, SCSS",
+        "Javascript",
+        "Jekyll"
+      ]
+    },
+    {
+      "name": "Big Data",
+      "level": "Advanced",
+      "keywords": [
+        "Apache Mesos, Marathon, Singularity",
+        "Apache Spark"
+      ]
+    },
+    {
+      "name": "Cloud Computing",
+      "level": "Master",
+      "keywords": [
+        "Amazon AWS (EC2, VPC, Beanstalk, Route53, CloudFront etc)"
+      ]
+    },
+    {
+      "name": "Devops",
+      "level": "Master",
+      "keywords": [
+        "Docker",
+        "Rancher (Docker clustering)"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent - TOEIC 940/990"
+    },
+    {
+      "language": "German",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Software Design",
+      "keywords": [
+        "Open-source", "Object-oriented"
+      ]
+    },
+    {
+      "name": "Tech Books",
+      "keywords": [
+        "Code Complete (Steve McConnell)", 
+	"The pragmatic Programmer (David Thomas)", 
+	"Java Concurrency in practice (Brian Goetz)",
+	"The Algorithm Design Manual (Steve Kiena)"
+      ]
+    },
+    {
+      "name": "Traveling",
+      "keywords": [
+        "USA",
+        "Madeira",
+        "Fuerte Ventura",
+        "France",
+        "United-Kingdom",
+	"Germany"
+      ]
+    }
+  ],
+  "references": []
+}
