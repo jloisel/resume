@@ -229,13 +229,16 @@
     {
       "name": "Software Design",
       "keywords": [
-        "Open-source", "Object-oriented"
+        "Open-source", 
+	"Object-oriented",
+	"Software Architecture"
       ]
     },
     {
       "name": "Tech Books",
       "keywords": [
         "Code Complete (Steve McConnell)", 
+	"Clean Code (robert C. Martin)", 
 	"The pragmatic Programmer (David Thomas)", 
 	"Java Concurrency in practice (Brian Goetz)",
 	"The Algorithm Design Manual (Steve Kiena)"
